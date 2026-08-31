@@ -1,0 +1,1 @@
+const b=document.getElementById("copy"),m=document.getElementById("mint"),t=document.getElementById("toast");b.onclick=async()=>{try{await navigator.clipboard.writeText(m.textContent.trim());b.textContent="✓ Copied";t.classList.add("show");setTimeout(()=>{b.textContent="▣  Copy";t.classList.remove("show")},1800)}catch(e){prompt("Copy address:",m.textContent.trim())}};
