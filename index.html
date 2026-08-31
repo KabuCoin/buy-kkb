@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#ff5a00">
+<meta name="description" content="KABU (KKB) — Solana community token. Trade KABU on your preferred platform.">
+<title>KABU — The KKB Community</title>
+<link rel="icon" type="image/png" href="assets/kabu-logo.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="noise"></div>
+<header class="nav">
+  <a class="logo-lockup" href="#">
+    <img src="assets/kabu-logo.png" alt="KABU">
+    <span>KABU</span><small>KKB</small>
+  </a>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#trade">Trade</a>
+    <a href="#token">Token</a>
+  </nav>
+  <div class="nav-actions"><a class="x-link" href="https://x.com/KabuKabuCoin" target="_blank" rel="noopener noreferrer">𝕏 <span>FOLLOW</span></a><a class="nav-cta" href="#trade">BUY KABU <span>↗</span></a></div>
+</header>
+
+<main>
+<section class="hero">
+  <div class="hero-copy">
+    <div class="badge"><i></i> LIVE ON SOLANA</div>
+    <h1>WELCOME TO<br><span>KABU.</span></h1>
+    <p class="subtitle">A community-driven token on Solana.<br>Choose your favorite platform and trade KABU.</p>
+    <div class="actions">
+      <a class="btn-primary" href="#trade">TRADE KABU <span>↗</span></a>
+      <a class="btn-ghost" href="#token">VIEW TOKEN</a>
+    </div>
+  </div>
+  <div class="hero-art">
+    <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+    <div class="logo-halo"></div>
+    <img src="assets/kabu-logo.png" alt="KABU logo">
+    <div class="float-tag tag-one">SOLANA</div>
+    <div class="float-tag tag-two">KKB</div>
+  </div>
+</section>
+
+<section class="ticker"><div>● KABU <span>ON SOLANA</span></div><div>● KKB <span>COMMUNITY TOKEN</span></div><div>● TRADE KABU <span>YOUR WAY</span></div></section>
+
+<section id="trade" class="trade">
+  <div class="section-top">
+    <div><span class="eyebrow">01 / TRADE</span><h2>Choose your<br><em>platform.</em></h2></div>
+    <p>Open the KABU page directly on the platform you prefer. Always verify the token address before trading.</p>
+  </div>
+  <div class="platforms">
+    <a class="platform" href="https://www.dextools.io/app/solana/pair-explorer/HdzaTVW7dUfM4KVnoeV6bwoiZQpLKVhAW9JfL9kMpump?utm_source=solscan" target="_blank" rel="noopener noreferrer">
+      <div class="brand-icon dt">D</div><div class="ptext"><b>DEXTools</b><span>Pair Explorer</span></div><strong>↗</strong>
+    </a>
+    <a class="platform" href="https://phantom.com/tokens/solana/HdzaTVW7dUfM4KVnoeV6bwoiZQpLKVhAW9JfL9kMpump?referralId=2klqjkkdv0d" target="_blank" rel="noopener noreferrer">
+      <div class="brand-icon phantom">✦</div><div class="ptext"><b>Phantom</b><span>KABU on Solana</span></div><strong>↗</strong>
+    </a>
+    <a class="platform" href="https://gmgn.ai/sol/token/solscan_HdzaTVW7dUfM4KVnoeV6bwoiZQpLKVhAW9JfL9kMpump?utm_source=solscan" target="_blank" rel="noopener noreferrer">
+      <div class="brand-icon gmgn">G</div><div class="ptext"><b>GMGN</b><span>KABU token</span></div><strong>↗</strong>
+    </a>
+    <a class="platform" href="https://birdeye.so/solana/token/HdzaTVW7dUfM4KVnoeV6bwoiZQpLKVhAW9JfL9kMpump?utm_source=solscan" target="_blank" rel="noopener noreferrer">
+      <div class="brand-icon bird">B</div><div class="ptext"><b>Birdeye</b><span>KABU token</span></div><strong>↗</strong>
+    </a>
+  </div>
+</section>
+
+<section id="token" class="token">
+  <div class="token-heading"><span class="eyebrow">02 / TOKEN</span><h2>Meet <em>KABU.</em></h2></div>
+  <div class="token-card">
+    <div class="token-symbol"><img src="assets/kabu-logo.png" alt=""><span>KKB</span></div>
+    <div class="token-meta"><span>NAME</span><b>KABU</b></div>
+    <div class="token-meta"><span>NETWORK</span><b>Solana</b></div>
+    <div class="token-meta address-meta"><span>MINT ADDRESS</span><code id="mint">HdzaTVW7dUfM4KVnoeV6bwoiZQpLKVhAW9JfL9kMpump</code></div>
+    <button id="copy" class="copy">COPY ADDRESS</button>
+  </div>
+</section>
+
+<section id="about" class="about">
+  <div><span class="eyebrow">03 / ABOUT</span><h2>Built for the<br><em>community.</em></h2></div>
+  <div class="about-copy">
+    <p>KABU is a community-driven token built on Solana. This page gives the community a simple place to find KABU across supported trading platforms.</p>
+    <p class="warning">Before trading, compare the mint address shown above with the address on your chosen platform. Never share your seed phrase or private key.</p>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="footer-logo"><img src="assets/kabu-logo.png" alt=""><b>KABU</b><span>KKB</span></div>
+  <span>© 2026 KABU COMMUNITY · SOLANA</span><a class="footer-x" href="https://x.com/KabuKabuCoin" target="_blank" rel="noopener noreferrer">𝕏 @KabuKabuCoin</a>
+</footer>
+<div id="toast">Address copied</div>
+<script src="app.js"></script>
+</body>
+</html>
