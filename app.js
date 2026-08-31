@@ -1,2 +1,0 @@
-const button=document.getElementById("copy"), mint=document.getElementById("mint"), toast=document.getElementById("toast");
-button.addEventListener("click",async()=>{try{await navigator.clipboard.writeText(mint.textContent.trim());button.textContent="COPIED";toast.classList.add("show");setTimeout(()=>{button.textContent="COPY ADDRESS";toast.classList.remove("show")},1800)}catch(e){window.prompt("Copy KABU mint address:",mint.textContent.trim())}});
